@@ -1,4 +1,4 @@
-package ArrayProblems;
+package Arrays;
 
 /*
  Sample Input 1:
@@ -47,5 +47,17 @@ public class Rotate_Array {
             start++;
             end--;
         }
+    }
+    static void printArray(int arr[], int n)
+    {
+        for (int i = 0; i < n; i++)
+            System.out.print(arr[i] + " ");
+    }
+
+    public static void main(String[] args) {
+
+        int arr[] = {1,2,3,4,5};
+        RotateArray(arr,2);
+        printArray(arr,arr.length);
     }
 }
