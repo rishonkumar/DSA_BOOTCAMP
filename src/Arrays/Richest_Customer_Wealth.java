@@ -16,3 +16,4 @@ public class Richest_Customer_Wealth {
         return ans;
     }
 }
+
